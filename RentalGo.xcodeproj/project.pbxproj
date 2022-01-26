@@ -7,15 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B362F2ADF5E35B5644C31B5B /* Pods_RentalGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4224398245785794C17DF73A /* Pods_RentalGo.framework */; };
 		DB37B88C279FF68400083727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B88B279FF68400083727 /* AppDelegate.swift */; };
 		DB37B88E279FF68400083727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B88D279FF68400083727 /* SceneDelegate.swift */; };
 		DB37B890279FF68400083727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B88F279FF68400083727 /* ViewController.swift */; };
 		DB37B893279FF68400083727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB37B891279FF68400083727 /* Main.storyboard */; };
 		DB37B895279FF68700083727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB37B894279FF68700083727 /* Assets.xcassets */; };
 		DB37B898279FF68700083727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB37B896279FF68700083727 /* LaunchScreen.storyboard */; };
+		DB37B8B6279FF77D00083727 /* FullDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B89F279FF77D00083727 /* FullDetailsVC.swift */; };
+		DB37B8B7279FF77D00083727 /* BookingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A0279FF77D00083727 /* BookingsVC.swift */; };
+		DB37B8B8279FF77D00083727 /* CancelledVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A1279FF77D00083727 /* CancelledVC.swift */; };
+		DB37B8B9279FF77D00083727 /* ConfirmBookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A2279FF77D00083727 /* ConfirmBookingVC.swift */; };
+		DB37B8BA279FF77D00083727 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A4279FF77D00083727 /* UIApplication+Extension.swift */; };
+		DB37B8BB279FF77D00083727 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A5279FF77D00083727 /* UIImageView+Extension.swift */; };
+		DB37B8BC279FF77D00083727 /* CollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A6279FF77D00083727 /* CollectionView+Extension.swift */; };
+		DB37B8BD279FF77D00083727 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A7279FF77D00083727 /* UIViewController+Extensions.swift */; };
+		DB37B8BE279FF77D00083727 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A8279FF77D00083727 /* Alert.swift */; };
+		DB37B8BF279FF77D00083727 /* userDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8A9279FF77D00083727 /* userDefault.swift */; };
+		DB37B8C0279FF77D00083727 /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8AA279FF77D00083727 /* UserDefault+Extension.swift */; };
+		DB37B8C1279FF77D00083727 /* GFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8AB279FF77D00083727 /* GFunction.swift */; };
+		DB37B8C2279FF77D00083727 /* UITapGesture+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8AC279FF77D00083727 /* UITapGesture+Extensions.swift */; };
+		DB37B8C3279FF77D00083727 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8AD279FF77D00083727 /* String+Extension.swift */; };
+		DB37B8C4279FF77D00083727 /* UIStoryBoard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8AE279FF77D00083727 /* UIStoryBoard+Extension.swift */; };
+		DB37B8C5279FF77D00083727 /* StringConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8AF279FF77D00083727 /* StringConstant.swift */; };
+		DB37B8C6279FF77D00083727 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB37B8B0279FF77D00083727 /* GoogleService-Info.plist */; };
+		DB37B8C7279FF77D00083727 /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8B1279FF77D00083727 /* HotelModel.swift */; };
+		DB37B8C8279FF77D00083727 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8B2279FF77D00083727 /* DashboardVC.swift */; };
+		DB37B8C9279FF77D00083727 /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8B3279FF77D00083727 /* CreateProfileVC.swift */; };
+		DB37B8CA279FF77D00083727 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8B4279FF77D00083727 /* HomeVC.swift */; };
+		DB37B8CB279FF77D00083727 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8B5279FF77D00083727 /* ForgotPasswordVC.swift */; };
+		DB37B8CD279FF7D500083727 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8CC279FF7D500083727 /* OrderModel.swift */; };
+		DB37B8CF279FF7DF00083727 /* SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8CE279FF7DF00083727 /* SelectionVC.swift */; };
+		DB37B8D1279FF7E800083727 /* StartNAV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8D0279FF7E800083727 /* StartNAV.swift */; };
+		DB37B8D3279FF93B00083727 /* AppleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8D2279FF93B00083727 /* AppleSignIn.swift */; };
+		DB37B8D5279FF94E00083727 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8D4279FF94D00083727 /* UserModel.swift */; };
+		DB37B8D7279FFAB700083727 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37B8D6279FFAB600083727 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4224398245785794C17DF73A /* Pods_RentalGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RentalGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B3FD3DD67C06E3E311C509 /* Pods-RentalGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGo.debug.xcconfig"; path = "Target Support Files/Pods-RentalGo/Pods-RentalGo.debug.xcconfig"; sourceTree = "<group>"; };
 		DB37B888279FF68400083727 /* RentalGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentalGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB37B88B279FF68400083727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB37B88D279FF68400083727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +55,36 @@
 		DB37B894279FF68700083727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB37B897279FF68700083727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB37B899279FF68700083727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB37B89F279FF77D00083727 /* FullDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullDetailsVC.swift; sourceTree = "<group>"; };
+		DB37B8A0279FF77D00083727 /* BookingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingsVC.swift; sourceTree = "<group>"; };
+		DB37B8A1279FF77D00083727 /* CancelledVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelledVC.swift; sourceTree = "<group>"; };
+		DB37B8A2279FF77D00083727 /* ConfirmBookingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmBookingVC.swift; sourceTree = "<group>"; };
+		DB37B8A4279FF77D00083727 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		DB37B8A5279FF77D00083727 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		DB37B8A6279FF77D00083727 /* CollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionView+Extension.swift"; sourceTree = "<group>"; };
+		DB37B8A7279FF77D00083727 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		DB37B8A8279FF77D00083727 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		DB37B8A9279FF77D00083727 /* userDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userDefault.swift; sourceTree = "<group>"; };
+		DB37B8AA279FF77D00083727 /* UserDefault+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		DB37B8AB279FF77D00083727 /* GFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFunction.swift; sourceTree = "<group>"; };
+		DB37B8AC279FF77D00083727 /* UITapGesture+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITapGesture+Extensions.swift"; sourceTree = "<group>"; };
+		DB37B8AD279FF77D00083727 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DB37B8AE279FF77D00083727 /* UIStoryBoard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryBoard+Extension.swift"; sourceTree = "<group>"; };
+		DB37B8AF279FF77D00083727 /* StringConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstant.swift; sourceTree = "<group>"; };
+		DB37B8B0279FF77D00083727 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB37B8B1279FF77D00083727 /* HotelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		DB37B8B2279FF77D00083727 /* DashboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		DB37B8B3279FF77D00083727 /* CreateProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
+		DB37B8B4279FF77D00083727 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DB37B8B5279FF77D00083727 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		DB37B8CC279FF7D500083727 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		DB37B8CE279FF7DF00083727 /* SelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionVC.swift; sourceTree = "<group>"; };
+		DB37B8D0279FF7E800083727 /* StartNAV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartNAV.swift; sourceTree = "<group>"; };
+		DB37B8D2279FF93B00083727 /* AppleSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleSignIn.swift; sourceTree = "<group>"; };
+		DB37B8D4279FF94D00083727 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DB37B8D6279FFAB600083727 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		DB7488C027A01364009F38B9 /* RentalGo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RentalGo.entitlements; sourceTree = "<group>"; };
+		F08F3E506E04FAF50191B56E /* Pods-RentalGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentalGo.release.xcconfig"; path = "Target Support Files/Pods-RentalGo/Pods-RentalGo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +92,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B362F2ADF5E35B5644C31B5B /* Pods_RentalGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D45968630C6116BCF847EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4224398245785794C17DF73A /* Pods_RentalGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2FF51B012CD4F88EA0FC8EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2B3FD3DD67C06E3E311C509 /* Pods-RentalGo.debug.xcconfig */,
+				F08F3E506E04FAF50191B56E /* Pods-RentalGo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB37B87F279FF68400083727 = {
 			isa = PBXGroup;
 			children = (
 				DB37B88A279FF68400083727 /* RentalGo */,
 				DB37B889279FF68400083727 /* Products */,
+				A2FF51B012CD4F88EA0FC8EE /* Pods */,
+				07D45968630C6116BCF847EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +137,26 @@
 		DB37B88A279FF68400083727 /* RentalGo */ = {
 			isa = PBXGroup;
 			children = (
+				DB7488C027A01364009F38B9 /* RentalGo.entitlements */,
+				DB37B8D2279FF93B00083727 /* AppleSignIn.swift */,
+				DB37B8A0279FF77D00083727 /* BookingsVC.swift */,
+				DB37B8A1279FF77D00083727 /* CancelledVC.swift */,
+				DB37B8A2279FF77D00083727 /* ConfirmBookingVC.swift */,
+				DB37B8B3279FF77D00083727 /* CreateProfileVC.swift */,
+				DB37B8B2279FF77D00083727 /* DashboardVC.swift */,
+				DB37B8A3279FF77D00083727 /* Extensions */,
+				DB37B8B5279FF77D00083727 /* ForgotPasswordVC.swift */,
+				DB37B89F279FF77D00083727 /* FullDetailsVC.swift */,
+				DB37B8B0279FF77D00083727 /* GoogleService-Info.plist */,
+				DB37B8B4279FF77D00083727 /* HomeVC.swift */,
+				DB37B8B1279FF77D00083727 /* HotelModel.swift */,
 				DB37B88B279FF68400083727 /* AppDelegate.swift */,
+				DB37B8D6279FFAB600083727 /* LoginVC.swift */,
 				DB37B88D279FF68400083727 /* SceneDelegate.swift */,
+				DB37B8D0279FF7E800083727 /* StartNAV.swift */,
+				DB37B8CE279FF7DF00083727 /* SelectionVC.swift */,
+				DB37B8D4279FF94D00083727 /* UserModel.swift */,
+				DB37B8CC279FF7D500083727 /* OrderModel.swift */,
 				DB37B88F279FF68400083727 /* ViewController.swift */,
 				DB37B891279FF68400083727 /* Main.storyboard */,
 				DB37B894279FF68700083727 /* Assets.xcassets */,
@@ -67,6 +166,25 @@
 			path = RentalGo;
 			sourceTree = "<group>";
 		};
+		DB37B8A3279FF77D00083727 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB37B8A4279FF77D00083727 /* UIApplication+Extension.swift */,
+				DB37B8A5279FF77D00083727 /* UIImageView+Extension.swift */,
+				DB37B8A6279FF77D00083727 /* CollectionView+Extension.swift */,
+				DB37B8A7279FF77D00083727 /* UIViewController+Extensions.swift */,
+				DB37B8A8279FF77D00083727 /* Alert.swift */,
+				DB37B8A9279FF77D00083727 /* userDefault.swift */,
+				DB37B8AA279FF77D00083727 /* UserDefault+Extension.swift */,
+				DB37B8AB279FF77D00083727 /* GFunction.swift */,
+				DB37B8AC279FF77D00083727 /* UITapGesture+Extensions.swift */,
+				DB37B8AD279FF77D00083727 /* String+Extension.swift */,
+				DB37B8AE279FF77D00083727 /* UIStoryBoard+Extension.swift */,
+				DB37B8AF279FF77D00083727 /* StringConstant.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB37B89C279FF68700083727 /* Build configuration list for PBXNativeTarget "RentalGo" */;
 			buildPhases = (
+				8D3D592F5C14D3D3B3D0890A /* [CP] Check Pods Manifest.lock */,
 				DB37B884279FF68400083727 /* Sources */,
 				DB37B885279FF68400083727 /* Frameworks */,
 				DB37B886279FF68400083727 /* Resources */,
+				E1D8CF22AB0260CA6AFF3FAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB37B898279FF68700083727 /* LaunchScreen.storyboard in Resources */,
+				DB37B8C6279FF77D00083727 /* GoogleService-Info.plist in Resources */,
 				DB37B895279FF68700083727 /* Assets.xcassets in Resources */,
 				DB37B893279FF68400083727 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +254,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D3D592F5C14D3D3B3D0890A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RentalGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D8CF22AB0260CA6AFF3FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RentalGo/Pods-RentalGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RentalGo/Pods-RentalGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RentalGo/Pods-RentalGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB37B884279FF68400083727 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB37B8D1279FF7E800083727 /* StartNAV.swift in Sources */,
+				DB37B8C7279FF77D00083727 /* HotelModel.swift in Sources */,
+				DB37B8B9279FF77D00083727 /* ConfirmBookingVC.swift in Sources */,
+				DB37B8D5279FF94E00083727 /* UserModel.swift in Sources */,
+				DB37B8B6279FF77D00083727 /* FullDetailsVC.swift in Sources */,
+				DB37B8BA279FF77D00083727 /* UIApplication+Extension.swift in Sources */,
+				DB37B8BB279FF77D00083727 /* UIImageView+Extension.swift in Sources */,
+				DB37B8C0279FF77D00083727 /* UserDefault+Extension.swift in Sources */,
+				DB37B8C5279FF77D00083727 /* StringConstant.swift in Sources */,
+				DB37B8C2279FF77D00083727 /* UITapGesture+Extensions.swift in Sources */,
+				DB37B8C9279FF77D00083727 /* CreateProfileVC.swift in Sources */,
 				DB37B890279FF68400083727 /* ViewController.swift in Sources */,
+				DB37B8B7279FF77D00083727 /* BookingsVC.swift in Sources */,
+				DB37B8C3279FF77D00083727 /* String+Extension.swift in Sources */,
+				DB37B8D7279FFAB700083727 /* LoginVC.swift in Sources */,
+				DB37B8BE279FF77D00083727 /* Alert.swift in Sources */,
+				DB37B8D3279FF93B00083727 /* AppleSignIn.swift in Sources */,
+				DB37B8CA279FF77D00083727 /* HomeVC.swift in Sources */,
+				DB37B8CB279FF77D00083727 /* ForgotPasswordVC.swift in Sources */,
+				DB37B8BD279FF77D00083727 /* UIViewController+Extensions.swift in Sources */,
 				DB37B88C279FF68400083727 /* AppDelegate.swift in Sources */,
+				DB37B8C4279FF77D00083727 /* UIStoryBoard+Extension.swift in Sources */,
+				DB37B8BF279FF77D00083727 /* userDefault.swift in Sources */,
+				DB37B8C8279FF77D00083727 /* DashboardVC.swift in Sources */,
+				DB37B8B8279FF77D00083727 /* CancelledVC.swift in Sources */,
+				DB37B8C1279FF77D00083727 /* GFunction.swift in Sources */,
+				DB37B8CD279FF7D500083727 /* OrderModel.swift in Sources */,
+				DB37B8CF279FF7DF00083727 /* SelectionVC.swift in Sources */,
+				DB37B8BC279FF77D00083727 /* CollectionView+Extension.swift in Sources */,
 				DB37B88E279FF68400083727 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,9 +474,11 @@
 		};
 		DB37B89D279FF68700083727 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B3FD3DD67C06E3E311C509 /* Pods-RentalGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RentalGo/RentalGo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -305,15 +497,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DB37B89E279FF68700083727 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08F3E506E04FAF50191B56E /* Pods-RentalGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RentalGo/RentalGo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -332,7 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
